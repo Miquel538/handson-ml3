@@ -37,7 +37,7 @@ dependencies:
     - tensorflow-datasets~=4.9.3  # datasets repository, ready to use
     - tensorflow-hub~=0.15.0  # trained ML models repository, ready to use
     - tensorflow-serving-api~=2.14.0  # or tensorflow-serving-api-gpu if gpu
-    - tensorflow~=2.14.0  # Deep Learning library
+    - "tensorflow[and-cuda]~=2.14.0"  # Deep Learning library with CUDA support for WSL2/Linux
     - transformers~=4.35.0  # Natural Language Processing lib for TF or PyTorch
     - urlextract~=1.8.0  # optionally used in chapter 3, exercise 4
     - gymnasium[classic_control,atari]  # used only in ch18
